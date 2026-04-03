@@ -5,12 +5,12 @@
 }
 
 :root {
-  --color-bg: #faf9f7;
-  --color-text: #1a1a1a;
-  --color-text-muted: #6b6b6b;
-  --color-accent: #4a7c59;
-  --color-accent-hover: #3a6147;
-  --color-border: #e0ddd8;
+  --color-bg: #f5f8fa;
+  --color-text: #1d2e3a;
+  --color-text-muted: #6b8596;
+  --color-accent: #4a7c96;
+  --color-accent-hover: #3a6880;
+  --color-border: #d4e2ea;
   --color-surface: #ffffff;
   --font-sans: system-ui, -apple-system, sans-serif;
   --max-width: 1200px;
