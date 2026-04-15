@@ -9,10 +9,30 @@
   padding-top: var(--nav-height);
 }
 
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.footer__social-link {
+  color: #888888;
+  transition: color 0.15s;
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-link:hover {
+  color: #ffffff;
+}
+
 .footer {
-  padding: 24px 32px;
-  border-top: 1px solid var(--color-border);
+  padding: 28px 32px;
+  background: #111111;
+  border-top: 1px solid #222222;
   text-align: center;
-  color: var(--color-text-muted);
+  color: #888888;
   font-size: 0.875rem;
+  letter-spacing: 0.02em;
 }

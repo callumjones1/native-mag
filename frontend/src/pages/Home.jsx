@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import BannerSlider from '../components/BannerSlider.jsx'
 import './Home.css'
 
 const PRODUCTS = [
@@ -28,13 +29,14 @@ const PRODUCTS = [
 export default function Home() {
   return (
     <div className="home">
-      <section className="banner" />
+      <BannerSlider />
 
       <section className="catchphrase">
         <p>Feel better, naturally.</p>
       </section>
 
       <section className="product-grid-section">
+        <div className="product-grid-inner">
         <div className="product-grid">
           {PRODUCTS.map(product => (
             <Link to="/products" className="product-card" key={product.id}>
@@ -51,6 +53,7 @@ export default function Home() {
               </div>
             </Link>
           ))}
+        </div>
         </div>
       </section>
     </div>

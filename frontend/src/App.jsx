@@ -7,7 +7,7 @@ import Contact from './pages/Contact.jsx'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/native-mag">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
